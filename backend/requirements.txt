@@ -1,0 +1,34 @@
+# FastAPI 核心
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9
+
+# PDF处理核心
+PyMuPDF==1.24.5  # fitz - 合并、拆分、删除、旋转、水印、裁剪、解锁、加密
+pdf2docx==0.5.8  # PDF转Word
+pdfplumber==0.11.1  # PDF表格提取
+pymupdf-table==0.0.3  # 表格处理
+
+# 图片处理
+Pillow==10.3.0  # 图片处理
+img2pdf==0.5.1  # 图片转PDF
+pdf2image==1.17.0  # PDF转图片
+pytesseract==0.3.10  # OCR
+python-docx==1.1.2  # Word文档处理
+python-pptx==1.0.1  # PPT处理
+openpyxl==3.1.5  # Excel处理
+
+# HTML转PDF
+weasyprint==62.2  # HTML/CSS转PDF
+playwright==1.45.0  # 备用HTML渲染
+
+# 安全与清理
+python-dotenv==1.0.1
+aiofiles==23.2.1  # 异步文件操作
+
+# 日志与监控
+loguru==0.7.2
+prometheus-client==0.20.0
+
+# 实用工具
+python-dateutil==2.9.0
